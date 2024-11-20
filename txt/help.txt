@@ -1,0 +1,9 @@
+So in asynchronous code, we upload heavy work
+to basically be worked on in the background.
+And then, once that work is done,
+a callback function that we register before
+is called to handle the result.
+And during all that time,
+the rest of the code can still be executing
+without being blocked by the heavy task,
+which is now running in the background.
